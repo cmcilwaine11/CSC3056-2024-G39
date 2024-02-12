@@ -49,11 +49,9 @@ public class Account {
 
     @Override
     public String toString() {
-        return "Account{" +
-                "account_number='" + account_number + '\'' +
-                ", username='" + username + '\'' +
-                ", account_type='" + account_type + '\'' +
-                ", account_opening_date=" + account_opening_date +
-                '}';
+        return account_number + ", " +
+                username + ", " +
+                account_type + ", " +
+                account_opening_date;
     }
 }
