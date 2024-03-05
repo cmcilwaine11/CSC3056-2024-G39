@@ -8,6 +8,8 @@
 	</classpathentry>
 	<classpathentry kind="lib" path="/Users/chloemcilwaine/Documents/Lab 2- artifacts/jfreechart.jar"/>
 	<classpathentry kind="lib" path="/Users/chloemcilwaine/Documents/Lab 2- artifacts/jcommon-1.0.5.jar"/>
+	<classpathentry kind="lib" path="/Users/bencr/Documents/Lab 2- artifacts/jfreechart.jar"/>
+	<classpathentry kind="lib" path="/Users/bencr/Documents/Lab 2- artifacts/jcommon-1.0.5.jar"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
