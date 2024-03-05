@@ -98,7 +98,11 @@ public class RangeTest {
 	
 	@Test
 	public void testCombineWithFirstRangeHigherThanSecond() {
-		assertEquals(new Range(1, 4), Range.combine(validRange2, validRange1));
+		try {
+			assertEquals(new Range(1, 4), Range.combine(validRange2, validRange1));
+		} catch (Exception e) {
+			fail("Test failed and Exception thrown: " + e);
+		}
 	}
 
 	
